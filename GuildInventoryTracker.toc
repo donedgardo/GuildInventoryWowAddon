@@ -1,0 +1,7 @@
+## Interface: 110002
+## Title: Guild Inventory Tracker
+## Notes: Tracks guild members inventory.
+## Version: 0.1
+## Author: Edgardo Carreras
+
+GuildInventoryTracker.lua
