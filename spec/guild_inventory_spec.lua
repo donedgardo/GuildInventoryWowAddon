@@ -38,6 +38,11 @@ describe("GuildInventory", function()
         local items = fellowshipInventory:getPlayerItems(bilbo);
         assert.are.same(items[1].id, theRingId);
       end)
+      it("wont get items from other players", function()
+        fellowshipInventory:addItem(444, "Sauron")
+        local items = fellowshipInventory:getPlayerItems(bilbo);
+        assert.are.same(#items, 1);
+      end)
     end)
   end)
 end)
