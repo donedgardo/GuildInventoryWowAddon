@@ -22,5 +22,6 @@ Lets rename this test to actually describe what its doing. [commit](218c0e560162
 15. Refactor: Well there is some duplication in the test. Lets refactor [commit](0a5ec4d937445a8c8fca10c4d4cd9d72c74cb9f0)
 16. Red: So its easy to see that with hardcoded values we can add a new test adding a differnt item to make us stop
 cheating and actually implement the solution. Why do we do this, sometime we notice some patterns that allow us to write
-the smallest amount of production code to pass the test. Anyways here is the failing test [commit]()
+the smallest amount of production code to pass the test. Anyways here is the failing test [commit](e45e2aa863652e0c1b74afc56947e0ea02b472dd)
+17. Green: Lets write enough production code to make the test pass. [commit]()
 
