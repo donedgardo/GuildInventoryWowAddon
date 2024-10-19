@@ -10,4 +10,8 @@ function GuildInventory:addItem(itemId)
     return;
 end
 
+function GuildInventory:getItems()
+    return {};
+end
+
 return GuildInventory
