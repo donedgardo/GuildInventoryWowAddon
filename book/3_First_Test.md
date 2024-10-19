@@ -36,4 +36,11 @@ even tho the test fail because the method getPlayerItems doesn't exist. [commit]
 it pass [commit](4ff1d5f0724c076a69134bbcebc354be8ddc5507)
 21. Refactor: I think here I'm noticing inconcintecies between player and character, I'm going to decide to move to use 
 player from now on. And also require player as a paramater when adding items. [commit](aff36bd462a156e3c09803c92b9dfda74d433fda)
+[commit](4bd2b5ad52405c0a73dd4101f3d735170a813447 )
+22. Red: Lets add a new test that makes sure the get items for player actually workds. [commit](899dfc3c48c646face1245846991cfdabdc0471d)
+To make this test pass we are going to have to change the structure of items, and unfurtunetly now its going to bite us
+the fact that we are exposing the data structure on our apis, making a simple change break many test and implementations.
+Lets take a step back and skip this test while we refactor so this test is easier to implement. [commit]()
+
+23. Green: Let make this test pass. [commit]()
 
