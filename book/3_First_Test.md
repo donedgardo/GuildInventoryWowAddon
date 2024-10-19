@@ -30,5 +30,8 @@ to be able to access self.items.
 items in the getItems method we are a bit tied to the implementation, in other words, if we change the data structure of 
 items we will need to change a lot of other parts of the code. I will keep this in mind and add it to the list. Lets go 
 and make sure items have an character owner.
-19. Red: Add a test adding an item to a character and being able to get their items. [commit]()
+19. Red: Add a test adding an item to a character and being able to get their items. This one I start with the assertion
+even tho the test fail because the method getPlayerItems doesn't exist. [commit](bf1d01f93cfdf89058eea52734d3a1de78a138f4)
+20. Green: Lets make the test pass by implementing the method and returning the all the items for now as this will make 
+it pass [commit]()
 
