@@ -22,6 +22,16 @@ describe("GuildInventory", function()
         assert.are.same(items[1].id, theRingId);
       end)
     end)
+    describe("adding a second item", function()
+      local stingSwordId = 321;
+      before_each(function()
+        fellowshipInventory.addItem(stingSwordId);
+        items = fellowshipInventory.getItems();
+      end)
+      it('increases in size by one', function()
+        assert.are.same(#items, 2);
+      end)
+    end)
 
   end)
 end)
