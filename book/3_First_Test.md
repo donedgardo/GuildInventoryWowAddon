@@ -17,5 +17,10 @@ We can leave this for the next test lets finish up. Ill add this to the list.
 11. Refactor: Yes we are cheating here but we are letting the test drive the design of  our code and this is important.
 Lets rename this test to actually describe what its doing. [commit](218c0e560162bfc6609119e17afe37aa7f1ca1cc)
 12. Red: Lets add a new failing test. Lets test the id of the item is the same as the one added.[commit](e4a6f2ece0f82e393fce4dff446d2fc42a1c33f3)
-13. Green: Lets make it pass by fastest way possible. Hardcoding it: [commit]()
+13. Green: Lets make it pass by fastest way possible. Hardcoding it: [commit](b62c143a750053a2d0b5d93263748afd8bde58be)
+14. Fix 2: Noticed we had a failing test lets fix it [commit](d013707cca18d443663805d146c1ef01b2c8a9db)
+15. Refactor: Well there is some duplication in the test. Lets refactor [commit](0a5ec4d937445a8c8fca10c4d4cd9d72c74cb9f0)
+16. Red: So its easy to see that with hardcoded values we can add a new test adding a differnt item to make us stop
+cheating and actually implement the solution. Why do we do this, sometime we notice some patterns that allow us to write
+the smallest amount of production code to pass the test. Anyways here is the failing test [commit]()
 
