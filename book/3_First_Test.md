@@ -35,5 +35,5 @@ even tho the test fail because the method getPlayerItems doesn't exist. [commit]
 20. Green: Lets make the test pass by implementing the method and returning the all the items for now as this will make 
 it pass [commit](4ff1d5f0724c076a69134bbcebc354be8ddc5507)
 21. Refactor: I think here I'm noticing inconcintecies between player and character, I'm going to decide to move to use 
-player from now on. And also require player as a paramater when adding items. [commit]()
+player from now on. And also require player as a paramater when adding items. [commit](aff36bd462a156e3c09803c92b9dfda74d433fda)
 
