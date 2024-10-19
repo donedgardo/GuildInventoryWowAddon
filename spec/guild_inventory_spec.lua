@@ -1,9 +1,4 @@
-GuildInventory = {};
-
-function GuildInventory:new()
-    local self = {};
-    return self;
-end
+local GuildInventory = require('GuildInventoryTracker')
 
 describe("GuildInventory", function()
     describe("when adding item for player", function()
