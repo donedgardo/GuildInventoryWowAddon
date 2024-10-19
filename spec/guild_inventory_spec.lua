@@ -8,12 +8,12 @@ describe("GuildInventory", function()
   describe("when adding item for player", function()
     local theRingId = 123;
     before_each(function()
-      fellowshipInventory.addItem(theRingId);
+      fellowshipInventory:addItem(theRingId);
     end)
     describe("getting items", function()
       local items;
       before_each(function()
-        items = fellowshipInventory.getItems();
+        items = fellowshipInventory:getItems();
       end)
       it("increases in size by one", function()
         assert.True(#items == 1);
@@ -25,8 +25,8 @@ describe("GuildInventory", function()
     describe("adding a second item", function()
       local stingSwordId = 321;
       before_each(function()
-        fellowshipInventory.addItem(stingSwordId);
-        items = fellowshipInventory.getItems();
+        fellowshipInventory:addItem(stingSwordId);
+        items = fellowshipInventory:getItems();
       end)
       it('increases in size by one', function()
         assert.are.same(#items, 2);
