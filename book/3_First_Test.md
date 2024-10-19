@@ -15,5 +15,7 @@ We can leave this for the next test lets finish up. Ill add this to the list.
 ![Assertion Fail, 0 == 1](./images/Failing%20fourth.png)
 10. Let's make it pass fastest way possible. [commit](f520e4877b377824160cd84f632e7cf0df10b702)
 11. Refactor: Yes we are cheating here but we are letting the test drive the design of  our code and this is important.
-Lets rename this test to actually describe what its doing. [commit]()
+Lets rename this test to actually describe what its doing. [commit](218c0e560162bfc6609119e17afe37aa7f1ca1cc)
+12. Red: Lets add a new failing test. Lets test the id of the item is the same as the one added.[commit](e4a6f2ece0f82e393fce4dff446d2fc42a1c33f3)
+13. Green: Lets make it pass by fastest way possible. Hardcoding it: [commit]()
 
