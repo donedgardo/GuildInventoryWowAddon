@@ -11,7 +11,7 @@ function GuildInventory:addItem(itemId)
 end
 
 function GuildInventory:getItems()
-    return { 123 };
+    return { [1] = { id = 123 }};
 end
 
 return GuildInventory
