@@ -11,5 +11,7 @@ We can leave this for the next test lets finish up. Ill add this to the list.
 7. Failing test on error getItems not found. [commit](https://github.com/donedgardo/GuildInventoryWowAddon/commit/8c1d6104a0829faa82b75091d58361d1a25f532e);
 ![Error no method getItems](./images/Failing%20third.png)
 8. Make test pass by adding method [commit](70d165ccbb95e39b5d53531f37d55519559cda99)
-9. Nothing to refactor imo. Lets go to red by making it fail by asserting there is a new item in the inventory.[commit]()
+9. Nothing to refactor imo. Lets go to red by making it fail by asserting there is a new item in the inventory.[commit](95b2b8b731f3ca8dd9111e7c76b6fecf272b37f1)
+![Assertion Fail, 0 == 1](./images/Failing%20fourth.png)
+10. Let's make it pass fastest way possible. [commit]()
 
