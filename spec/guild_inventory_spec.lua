@@ -7,10 +7,11 @@ describe("GuildInventory", function()
   end)
   describe("when adding item for player", function()
     local theRingId = 123;
+    local bilbo = "Bilbo Baggins"
     before_each(function()
-      fellowshipInventory:addItem(theRingId);
+      fellowshipInventory:addItem(theRingId, bilbo);
     end)
-    describe("getting items", function()
+    describe("getting all items", function()
       local items;
       before_each(function()
         items = fellowshipInventory:getItems();
@@ -32,6 +33,11 @@ describe("GuildInventory", function()
         assert.are.same(#items, 2);
       end)
     end)
-
+    describe("getting items from player", function()
+      it("can get items from character", function()
+        local items = fellowshipInventory:getPlayerItems(bilbo);
+        assert.are.same(items[1].id, theRingId);
+      end)
+    end)
   end)
 end)
