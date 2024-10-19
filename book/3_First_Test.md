@@ -8,5 +8,7 @@
 5. Make the test pass by adding the method. [commit](https://github.com/donedgardo/GuildInventoryWowAddon/commit/c12268fd841cf7db1bdd7b725cee97e802c132b9)
 6. Refactor? Well it may be premature but I think the signature for addItems should require who is adding the item. 
 We can leave this for the next test lets finish up. Ill add this to the list.
-7. Failing test on if it added the item or not. [commit]();
+7. Failing test on error getItems not found. [commit](https://github.com/donedgardo/GuildInventoryWowAddon/commit/8c1d6104a0829faa82b75091d58361d1a25f532e);
+![Error no method getItems](./images/Failing%20third.png)
+8. Make test pass by adding method [commit]()
 
