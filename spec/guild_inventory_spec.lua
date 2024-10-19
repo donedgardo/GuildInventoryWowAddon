@@ -6,6 +6,7 @@ describe("GuildInventory", function()
             local fellowshipInventory = GuildInventory:new();
             local theRingId = 123;
             fellowshipInventory.addItem(theRingId);
+            local items = fellowshipInventory.getItems();
         end)
     end)
 end)
