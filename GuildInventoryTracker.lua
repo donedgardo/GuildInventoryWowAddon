@@ -7,7 +7,7 @@ function GuildInventory:new()
     return self;
 end
 
-function GuildInventory:addItem(itemId, character)
+function GuildInventory:addItem(itemId, player)
     table.insert(self.items, {id = itemId});
     return;
 end
