@@ -26,4 +26,9 @@ the smallest amount of production code to pass the test. Anyways here is the fai
 17. Green: Lets write enough production code to make the test pass. [commit](f04729583b0d6a059dd7c5a0e3d4ab4cba928be4)
 We ended up having to fix some previous test as the signature now actually was using self so swtiching from '.' to ':'
 to be able to access self.items.
+18. Refactor: I don't quite see an oportunity to refactor just yet, although I have a feeling the way we are exposing the
+items in the getItems method we are a bit tied to the implementation, in other words, if we change the data structure of 
+items we will need to change a lot of other parts of the code. I will keep this in mind and add it to the list. Lets go 
+and make sure items have an character owner.
+19. Red: Add a test adding an item to a character and being able to get their items. [commit]()
 
