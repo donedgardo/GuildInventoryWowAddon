@@ -23,5 +23,7 @@ Lets rename this test to actually describe what its doing. [commit](218c0e560162
 16. Red: So its easy to see that with hardcoded values we can add a new test adding a differnt item to make us stop
 cheating and actually implement the solution. Why do we do this, sometime we notice some patterns that allow us to write
 the smallest amount of production code to pass the test. Anyways here is the failing test [commit](e45e2aa863652e0c1b74afc56947e0ea02b472dd)
-17. Green: Lets write enough production code to make the test pass. [commit]()
+17. Green: Lets write enough production code to make the test pass. [commit](f04729583b0d6a059dd7c5a0e3d4ab4cba928be4)
+We ended up having to fix some previous test as the signature now actually was using self so swtiching from '.' to ':'
+to be able to access self.items.
 
