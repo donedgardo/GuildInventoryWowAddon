@@ -7,6 +7,7 @@ describe("GuildInventory", function()
             local theRingId = 123;
             fellowshipInventory.addItem(theRingId);
             local items = fellowshipInventory.getItems();
+            assert.True(#items == 1);
         end)
     end)
 end)
