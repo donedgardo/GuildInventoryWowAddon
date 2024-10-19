@@ -33,5 +33,7 @@ and make sure items have an character owner.
 19. Red: Add a test adding an item to a character and being able to get their items. This one I start with the assertion
 even tho the test fail because the method getPlayerItems doesn't exist. [commit](bf1d01f93cfdf89058eea52734d3a1de78a138f4)
 20. Green: Lets make the test pass by implementing the method and returning the all the items for now as this will make 
-it pass [commit]()
+it pass [commit](4ff1d5f0724c076a69134bbcebc354be8ddc5507)
+21. Refactor: I think here I'm noticing inconcintecies between player and character, I'm going to decide to move to use 
+player from now on. And also require player as a paramater when adding items. [commit]()
 

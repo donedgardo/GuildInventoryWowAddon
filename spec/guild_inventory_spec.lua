@@ -26,7 +26,7 @@ describe("GuildInventory", function()
     describe("adding a second item", function()
       local stingSwordId = 321;
       before_each(function()
-        fellowshipInventory:addItem(stingSwordId);
+        fellowshipInventory:addItem(stingSwordId, bilbo);
         items = fellowshipInventory:getItems();
       end)
       it('increases in size by one', function()
@@ -34,7 +34,7 @@ describe("GuildInventory", function()
       end)
     end)
     describe("getting items from player", function()
-      it("can get items from character", function()
+      it("can find added items for player", function()
         local items = fellowshipInventory:getPlayerItems(bilbo);
         assert.are.same(items[1].id, theRingId);
       end)
