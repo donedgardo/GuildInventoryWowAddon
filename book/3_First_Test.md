@@ -38,5 +38,9 @@ it pass [commit](4ff1d5f0724c076a69134bbcebc354be8ddc5507)
 player from now on. And also require player as a paramater when adding items. [commit](aff36bd462a156e3c09803c92b9dfda74d433fda)
 [commit](4bd2b5ad52405c0a73dd4101f3d735170a813447 )
 22. Red: Lets add a new test that makes sure the get items for player actually workds. [commit](899dfc3c48c646face1245846991cfdabdc0471d)
-23. Green: Lets make this pass [commit]()
+23. Green: Lets make this pass [commit](b061394720af02f02819848657a63b3c29398efa)
+24. Refactor: Don't see any duplication we can continue over to red.
+25. Red: Lets add a new test that fails for being able to remove items. [commit](62913b7b06128a4640b3cd229434e1714d744529)
+26. Green: Lets make it pass now. [commit](ebdf93670c55e04529ec49e45fa166f69fe9faea)
+27. Refactor: Small duplication, I'd like to remove [commit]()
 
