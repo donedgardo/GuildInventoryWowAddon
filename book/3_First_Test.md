@@ -42,5 +42,5 @@ player from now on. And also require player as a paramater when adding items. [c
 24. Refactor: Don't see any duplication we can continue over to red.
 25. Red: Lets add a new test that fails for being able to remove items. [commit](62913b7b06128a4640b3cd229434e1714d744529)
 26. Green: Lets make it pass now. [commit](ebdf93670c55e04529ec49e45fa166f69fe9faea)
-27. Refactor: Small duplication, I'd like to remove [commit]()
+27. Refactor: Small duplication, I'd like to remove [commit](b5764f6be4418f67b70cb2b02258569e2b89da9f)
 
