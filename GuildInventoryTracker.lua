@@ -28,7 +28,8 @@ end
 
 function GuildInventory:removeItem(itemId, player)
   for i = 1, #self.items do
-    if self.items[i].player == player and self.items[i].id == itemId then
+    local item = self.items[i];
+    if item.player == player and item.id == itemId then
       table.remove(self.items, i);
     end
   end
