@@ -39,7 +39,6 @@ describe("GuildInventory", function()
         assert.are.same(items[1].id, theRingId);
       end)
       it("wont get items from other players", function()
-        pending("Skipping test to refactor data structure");
         fellowshipInventory:addItem(444, "Sauron");
         local items = fellowshipInventory:getPlayerItems(bilbo);
         assert.are.same(#items, 1);
