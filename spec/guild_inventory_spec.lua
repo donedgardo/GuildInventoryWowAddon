@@ -46,7 +46,7 @@ describe("GuildInventory", function()
     end)
     describe("removing item from player", function()
       it("decreases guild inventory by one", function()
-        fellowshipInventory:removeItem(123, "Bilbo");
+        fellowshipInventory:removeItem(123, bilbo);
         local items = fellowshipInventory:getItems();
         assert.are.same(#items, 0);
       end)

@@ -24,7 +24,14 @@ function GuildInventory:getPlayerItems(player)
     end
   end
   return playerItems
+end
 
+function GuildInventory:removeItem(itemId, player)
+  for i = 1, #self.items do
+    if self.items[i].player == player and self.items[i].id == itemId then
+      table.remove(selfItems, i);
+    end
+  end
 end
 
 return GuildInventory
